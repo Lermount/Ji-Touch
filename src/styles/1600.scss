@@ -1,0 +1,123 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+.container {
+  width: 1600px;
+  padding-left: 60px;
+  padding-right: 67px;
+  margin: 0 auto;
+  background: url('../images/content_back.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.header {
+  margin-top: 51px;
+  display: flex;
+  justify-content: space-between;
+  &_logo {
+    margin-top: 4px;
+  }
+  &_nav {
+
+    &_link {
+      margin-right: 48px;
+      @include header_font_size;
+      color: $main_font_color;
+    }
+
+    &_link:hover {
+      color: $btn_hover_color;
+      transition: color .3s ease-in-out;
+    }
+
+    &_btn {
+      margin-right: 1px;
+      padding: 9px 22px;
+    }
+
+  }
+  &_profile {
+    display: none;
+  }
+}
+
+.content {
+  text-align: center;
+  margin-top: 283px;
+  margin-bottom: 195px;
+
+  &_title {
+    margin-left: 24px;
+    margin-bottom: 64px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0.25em;
+    color: $main_font_color;
+  }
+
+  &_description {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.11em;
+    color: $main_font_color;
+  }
+
+  &_form {
+    &_input {
+      width: 267px;
+      height: 45px;
+      padding-left: 12px;
+      border: 1px solid $main_font_color;
+    }
+
+    &_input::placeholder {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.05em;
+      color: $placeholder_color;
+    }
+
+    &_btn {
+      padding: 10.3px 31px;
+      margin-left: -5px;
+      font-size: 16px !important;
+    }
+  }
+}
+
+.footer {
+  &_social {
+    display: flex;
+    justify-content: flex-end;
+
+    &_list:not(:last-child) {
+      margin-right: 30px;
+
+    }
+
+  }
+}
+.footer_icon:hover > path {
+  fill: $btn_hover_color;
+  transition: fill .3s ease-in-out;
+}
+
+
+@import '1400.scss';
+@import '1000.scss';
+@import '720.scss';
+@import '640.scss';
+@import '400.scss';
+@import '320.scss';

@@ -1,0 +1,74 @@
+@import 'var.scss';
+@import 'mixin.scss';
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/firasans-medium-webfont.woff') format('woff'),
+       url('../fonts/firasans-medium-webfont.woff2') format('woff2');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+       url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn {
+  background: none;
+  border: 1px solid $main_font_color;
+  color: $second_font_color;
+  @include header_font_size;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background-color: $btn_color;
+  top: 7px;
+  bottom: -7px;
+  right: -7px;
+  left: 7px;
+}
+
+.btn:hover{
+  background-color: $btn_hover_color;
+  transition: background-color .3s ease-in-out;
+}
+
+.btn:hover::after {
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.btn:active {
+  color: $main_font_color;
+}

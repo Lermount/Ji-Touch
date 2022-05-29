@@ -1,0 +1,16 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+@media(max-width: 720px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .content {
+    &_title {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+}

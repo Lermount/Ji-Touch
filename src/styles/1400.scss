@@ -1,0 +1,15 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+@media (max-width: 1400px){
+
+  .container {
+    width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+
+

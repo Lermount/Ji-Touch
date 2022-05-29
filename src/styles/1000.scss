@@ -1,0 +1,37 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+@media(max-width: 1000px) {
+  .container {
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header {
+    &_nav {
+
+      &_btn {
+        margin-right: 8px;
+      }
+    }
+  }
+  .content {
+    &_form {
+      &_btn {
+        margin-right: 7px;
+      }
+    }
+  }
+  .footer {
+    &_social {
+
+      &_list:not(:last-child) {
+        margin-right: 32px;
+
+      }
+
+    }
+  }
+}

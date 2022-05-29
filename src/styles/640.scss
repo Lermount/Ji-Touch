@@ -1,0 +1,25 @@
+@import 'common.scss';
+@import 'var.scss';
+@import 'mixin.scss';
+
+@media(max-width: 640px) {
+  .container {
+    width: 640px;
+    background: url('../images/back640.webp');
+    background-repeat: no-repeat;
+  }
+
+  .content {
+    margin-top: 205px;
+    margin-bottom: 159px;
+    &_title {
+      margin-left: 0;
+      margin-bottom: 47px;
+      letter-spacing: 0.23em;
+    }
+
+    &_description {
+      margin-left: -12px;
+    }
+  }
+}

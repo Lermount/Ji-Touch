@@ -37,7 +37,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;

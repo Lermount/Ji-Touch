@@ -37,7 +37,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
@@ -85,7 +86,6 @@ ul {
   background: url("../images/content_back.webp");
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 0;
 }
 
 .header {
@@ -204,7 +204,7 @@ ul {
 }
 
 .content_form_btn {
-  padding: 10.3px 31px;
+  padding: 10.5px 31px;
   margin-left: -5px;
   font-size: 16px !important;
 }
@@ -267,7 +267,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
@@ -354,7 +355,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
@@ -450,7 +452,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
@@ -539,7 +542,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
@@ -638,7 +642,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
@@ -769,7 +774,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid #282828;
+  border: none;
+  outline: 1px solid #282828;
   color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
@@ -837,7 +843,7 @@ ul {
     padding-left: 10px;
   }
   .content_form_btn {
-    padding: 10.3px 22px;
+    padding: 10.5px 22px;
   }
 }
 /*# sourceMappingURL=1600.css.map */

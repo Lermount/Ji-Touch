@@ -40,7 +40,8 @@ ul {
 
 .btn {
   background: none;
-  border: 1px solid $main_font_color;
+  border: none;
+  outline: 1px solid $main_font_color;
   color: $second_font_color;
   @include header_font_size;
   position: relative;
